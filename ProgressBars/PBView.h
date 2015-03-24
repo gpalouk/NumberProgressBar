@@ -13,6 +13,7 @@
 @interface PBView : UIView
 
 @property (nonatomic, strong) UIColor* progressColor;
+@property (nonatomic, strong) UIColor* progressBackColor;
 @property (nonatomic) CGFloat progress;
 
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
